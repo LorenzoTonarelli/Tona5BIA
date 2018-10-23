@@ -42,6 +42,14 @@ namespace ProvaGit
             
         }
 
-        
+        private void button2_Click(object sender, EventArgs e)
+        {
+            vettore.Sort();
+            foreach(int i in vettore)
+            {
+                MessageBox.Show(i.ToString());
+            }
+            
+        }
     }
 }
