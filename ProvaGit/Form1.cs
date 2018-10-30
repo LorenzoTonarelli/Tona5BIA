@@ -32,7 +32,7 @@ namespace ProvaGit
             vettore.Add(Convert.ToInt32(numericUpDown2.Value));
             vettore.Add(Convert.ToInt32(numericUpDown3.Value));
             vettore.Add(Convert.ToInt32(numericUpDown4.Value));
-            vettore.Add(Convert.ToInt32(numericUpDown5.Value));
+            
             MessageBox.Show("Max: " + vettore.Max().ToString() + " Min: " + vettore.Min().ToString());
             
         }
@@ -43,7 +43,7 @@ namespace ProvaGit
             vettore.Add(Convert.ToInt32(numericUpDown2.Value));
             vettore.Add(Convert.ToInt32(numericUpDown3.Value));
             vettore.Add(Convert.ToInt32(numericUpDown4.Value));
-            vettore.Add(Convert.ToInt32(numericUpDown5.Value));
+            
             
             vettore.Sort();
             foreach(int i in vettore)
