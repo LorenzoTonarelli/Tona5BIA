@@ -44,6 +44,16 @@ namespace ProvaGit
 
         private void button2_Click(object sender, EventArgs e)
         {
+            vettore.Add(Convert.ToInt32(numericUpDown1.Value));
+            vettore.Add(Convert.ToInt32(numericUpDown2.Value));
+            vettore.Add(Convert.ToInt32(numericUpDown3.Value));
+            vettore.Add(Convert.ToInt32(numericUpDown4.Value));
+            vettore.Add(Convert.ToInt32(numericUpDown5.Value));
+            vettore.Add(Convert.ToInt32(numericUpDown6.Value));
+            vettore.Add(Convert.ToInt32(numericUpDown7.Value));
+            vettore.Add(Convert.ToInt32(numericUpDown8.Value));
+            vettore.Add(Convert.ToInt32(numericUpDown9.Value));
+            vettore.Add(Convert.ToInt32(numericUpDown10.Value));
             vettore.Sort();
             foreach(int i in vettore)
             {
