@@ -21,7 +21,10 @@ namespace ProvaGit
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            modifica1
+            int x = 0;
+            int a = 4;
+            int b = 3;
+            x = a - b;
         }
 
         
